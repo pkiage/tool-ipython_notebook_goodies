@@ -14,11 +14,11 @@ and provides anchors (added where needed).
 
 1. Add a *markdown* cell at the top of your notebook with the following:
 ```
-<h1 id="tocheading">Table of Contents</h1>
+<p id="tocheading">Table of Contents:</p>
 <div id="toc"></div>
 ```
 2. Add a *code* cell anywhere in the notebook with the following:
 ```
 %%javascript
-$.getScript('https://kmahelona.github.io/ipython_notebook_goodies/ipython_notebook_toc.js')
+$.getScript('https://pkiage.github.io/tool-ipython_notebook_goodies/ipython_notebook_toc.js')
 ```
